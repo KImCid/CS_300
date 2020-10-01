@@ -10,7 +10,7 @@
 					"/EHsc",        
 					"/Fe:",        
 					"${fileDirname}\\${fileBasenameNoExtension}.exe",        
-					"${file}"
+					"${workspaceFolder}\\*.cpp"
 		  ],      
 		  "problemMatcher": ["$msCompile"],      
 		  "group": {        
